@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kanit&family=Libre+Baskerville&family=Merriweather:ital@1&family=Mukta&family=Oswald&family=Poppins:ital@0;1&family=Roboto&display=swap');
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0px;
+}
+
+/* top-banner nab-bar start here */
+.section-one {
+    background-color: #2D25A0;
+    overflow: hidden;
+
+}
+
+.bar {
+    display: none;
+}
+
+.nav-bar>ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    list-style: none;
+    gap: 60px;
+    font-size: 22px;
+    justify-content: center;
+    color: white;
+
+}
+
+
+ul>li:hover {
+
+    background-color: blueviolet;
+
+}
+
+
+#nav-button {
+    margin-left: 450px;
+    background-color: #E02C6D;
+    color: white;
+    font-size: large;
+}
+
+/* top-banner  start here */
+.top-banner {
+    display: flex;
+}
+
+.top-banner-info {
+    margin-left: 156px;
+    margin-right: 102px;
+    margin-top: 124px;
+    margin-bottom: 240px;
+}
+
+.top-banner-info>h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #ffff;
+
+}
+
+.top-banner img {
+    height: 454px;
+    width: 669px;
+    margin-left: 104px;
+    margin-right: 102px;
+    margin-top: 134px;
+    margin-bottom: 240px;
+}
+
+
+.top-banner-button {
+    background-color: #E02C6D;
+    color: white;
+    height: 44px;
+    width: 168px;
+    left: 156px;
+    top: 464px;
+    border-radius: 0px;
+    padding: 10px, 24px, 10px, 24px;
+    font-size: x-large;
+}
+
+/* card detail start here */
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 180px;
+    margin-right: 200px;
+    margin-top: 70px;
+
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.card-details img {
+
+    height: 351px;
+    width: 400px;
+    box-shadow: 10px 5px 10px;
+}
+
+.card-info {
+
+    text-align: justify;
+
+
+
+}
+
+/* highlight start here */
+.highlight {
+    display: flex;
+}
+
+.highlight-info {
+    height: 300px;
+    width: 450px;
+    text-align: justify;
+    margin-top: 224px;
+    margin-right: 66px;
+    margin-left: 182px;
+    margin-bottom: 210px;
+
+}
+
+.highlight img {
+    height: 450px;
+    width: 550px;
+    margin-top: 165px;
+    margin-bottom: 158px;
+    margin-right: 156px;
+
+}
+
+/* footer start here */
+footer {
+    text-align: center;
+}
+
+footer img {
+
+    margin-left: 242px;
+    margin-right: 480px;
+    margin-bottom: 60px;
+
+}
+
+.fev-icon {
+
+    justify-items: center;
+}
+
+@media only screen and (max-width:688px) {
+
+    /* top banner  */
+    .nav-bar>ul>li {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+        margin-left: 40px;
+        margin-top: 34px;
+    }
+
+    #nav-button {
+        margin-left: 213px;
+        margin-top: -40px;
+        background-color: #E02C6D;
+        color: white;
+        font-size: large;
+    }
+
+    .top-banner {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .top-banner-info {
+        margin-left: 42px;
+        margin-right: 102px;
+        margin-top: 5px;
+        margin-bottom: 240px;
+    }
+
+    .top-banner img {
+        height: 382px;
+        width: 384px;
+        margin-left: 3px;
+        margin-right: 102px;
+        margin-top: -116px;
+        margin-bottom: 0px;
+    }
+
+    /* card */
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 45px;
+        row-gap: 30px;
+        column-gap: 0px;
+    }
+
+    .card-details img {
+        height: 351px;
+        width: 384px;
+        box-shadow: 10px 5px 10px;
+        margin: 10px;
+    }
+
+    .card-info {
+        margin: 10px;
+        text-align: justify;
+    }
+
+    /* highlight */
+    .highlight {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .highlight-info {
+        height: 300px;
+        width: 352px;
+        text-align: justify;
+        margin: 10px;
+    }
+
+    .highlight img {
+        height: 450px;
+        width: 395px;
+        margin: 10px;
+    }
+
+    /* footer */
+    footer img {
+        width: 190px;
+        margin-bottom: 60px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

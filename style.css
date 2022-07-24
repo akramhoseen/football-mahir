@@ -161,6 +161,12 @@ footer img {
 @media only screen and (max-width:688px) {
 
     /* top banner  */
+    .section-one {
+        background-color: #2D25A0;
+        overflow: hidden;
+
+    }
+
     .nav-bar>ul>li {
         display: none;
     }

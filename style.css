@@ -218,6 +218,7 @@ footer img {
         margin-top: 45px;
         row-gap: 30px;
         column-gap: 0px;
+        overflow-x: hidden;
     }
 
     .card-details img {
@@ -236,6 +237,7 @@ footer img {
     .highlight {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     .highlight-info {
@@ -247,7 +249,7 @@ footer img {
 
     .highlight img {
         height: 450px;
-        width: 395px;
+        width: 363px;
         margin: 10px;
     }
 
